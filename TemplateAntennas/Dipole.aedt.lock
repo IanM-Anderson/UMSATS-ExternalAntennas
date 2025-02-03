@@ -1,0 +1,40 @@
+$begin 'ConnectionParameters'
+	DesktopProcessID=15056
+	DesktopProcessPath='C:\\Program Files\\AnsysEM\\v242\\Win64\\ansysedt.exe'
+	LaunchedByWB=false
+	GRPCPort=50051
+	$begin 'DesktopStubBlock'
+		$begin 'CommDetails'
+			TransportType=1
+			IPAddress='10.127.26.255'
+			ListenPort='60976'
+		$end 'CommDetails'
+		$begin 'Marshall'
+			InstanceID=503
+			ProcID=15056
+			InterfaceID=1
+			FactoryIntID='DesktopInterfaceForWBProxyStubFactory'
+		$end 'Marshall'
+	$end 'DesktopStubBlock'
+	$begin 'DesktopBackgroundObjStubBlock'
+		$begin 'CommDetails'
+			TransportType=1
+			IPAddress='10.127.26.255'
+			ListenPort='60976'
+		$end 'CommDetails'
+		$begin 'Marshall'
+			InstanceID=505
+			ProcID=15056
+			InterfaceID=2
+			FactoryIntID='DesktopInterfaceForWBProxyStubFactory'
+		$end 'Marshall'
+	$end 'DesktopBackgroundObjStubBlock'
+	$begin 'WebClientBlock'
+		Url='http://DESKTOP-IVGDJ03:12014/?server=ws://DESKTOP-IVGDJ03:11502&token=81c8fdb8-a91a-8907-f10e-885bcf3eaba4&startTab=monitor/graph'
+		SecureUrl='https://DESKTOP-IVGDJ03:12270/?server=wss://DESKTOP-IVGDJ03:11758&token=81c8fdb8-a91a-8907-f10e-885bcf3eaba4&startTab=monitor/graph'
+		WsHost='DESKTOP-IVGDJ03'
+		WsPort=11502
+		WssPort=11758
+		Token='81c8fdb8-a91a-8907-f10e-885bcf3eaba4'
+	$end 'WebClientBlock'
+$end 'ConnectionParameters'

@@ -1,0 +1,62 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002025, month=000000000001, day=000000000031, hour=000000000020, min=000000000040, sec=000000000048)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000002213, lin=000000000045, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=15
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=218
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='DielectricCoaxDiameter=\'3mm\' InnerCoaxDiameter=\'1.1200000000000001mm\' OuterCoaxDiameter=\'4.1200000000000001mm\' RadiatingSurface_X=\'300mm\' RadiatingSurface_Y=\'200mm\' RadiatingSurface_Z=\'200mm\' SpeedOfLight=\'300000000m_per_sec\' TubingHeight=\'200mm\' WavePeriod=\'1.09e-09s\' WireRadius=\'1.2mm\'', ID=26)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=26, Ver=15, Dir='DV26_V15.imesh/')
+	$end 'InitialMeshes'
+	MeshAssemVersionID=10
+	$begin 'NextAssemVersionID'
+		NextUniqueID=11
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'DefinitionMeshes'
+		$begin 'DefMeshes_Comp-1'
+			DefinitionID=-1
+			VersionID=9
+			VIDMap('DielectricCoaxDiameter=\'3mm\' InnerCoaxDiameter=\'1.1200000000000001mm\' OuterCoaxDiameter=\'4.1200000000000001mm\' RadiatingSurface_X=\'300mm\' RadiatingSurface_Y=\'200mm\' RadiatingSurface_Z=\'200mm\' TubingHeight=\'200mm\'', 76)
+			DM(VID=76, Ver=9, Dir='NDV76_V9.dmesh/')
+		$end 'DefMeshes_Comp-1'
+	$end 'DefinitionMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=26, Ver=15, Dir='DV26_MI0_V15.sd/')
+		$end 'SubData'
+	$end 'MI'
+	VersionID2=0
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=22, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock5'
+	'SolutionKey(SimSetup=22, Instance=\'SolutionDefinition\', Solution=23, VersionID=0)'='SolutionBlock2'
+	'SolutionKey(SimSetup=22, Instance=\'SolutionDefinition\', Solution=24, VersionID=0)'='SolutionBlock3'
+	'SolutionKey(SimSetup=22, Instance=\'SolutionDefinition\', Solution=25, VersionID=0)'='SolutionBlock4'
+$end 'BlockMapName'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=1729, lin=38, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=2213, lin=45, lvl=0)
+	$end '$index$'
+$end '$index$'

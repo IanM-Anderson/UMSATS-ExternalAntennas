@@ -1,0 +1,105 @@
+$begin 'DesignData'
+	Version=242
+	$begin 'PartsInfo'
+		Part(6, true, 'InnerCoax', false, 'pec', 3, 9, 8, 7, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 255, 0, 0, false)
+		Part(15, true, 'DielectricCoax', true, 'vacuum', 4, 18, 17, 16, 22, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 0, 0, 255, false)
+		Part(49, true, 'OutterCoax', false, 'pec', 4, 52, 51, 50, 56, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 255, 128, 64, false)
+		Part(82, true, 'CoaxCover', false, 'pec', 3, 84, 85, 83, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 0, 255, 0, false)
+		Part(89, true, 'RadiatingSurface', true, 'vacuum', 6, 90, 92, 93, 94, 91, 95, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 255, 128, 255, false)
+	$end 'PartsInfo'
+	$begin 'FacesInfo'
+		Face(7, 6, 0.000351858, 7.03717, false, 0, 0, 0, -10, -10, -10, 0)
+		Face(8, 6, 9.85203e-07, 3.51858, true, 1.07469e-16, 1.08218e-32, 0, -0, -0, -1, 0)
+		Face(9, 6, 9.85203e-07, 3.51858, true, -1.07469e-16, 5.41091e-33, 100, 0, 0, 1, 0)
+		Face(16, 15, 0.000942478, 18.8496, false, 0, 0, 0, -10, -10, -10, 0)
+		Face(17, 15, 6.08338e-06, 12.9434, true, 2.78474e-16, 3.36815e-32, 0, -0, -0, -1, 0)
+		Face(18, 15, 6.08338e-06, 12.9434, true, 2.78474e-16, 1.9188e-32, 100, 0, 0, 1, 0)
+		Face(22, 15, 0.000351858, 7.03717, false, 0, 0, 0, -10, -10, -10, 0)
+		Face(50, 49, 0.00129434, 25.8867, false, 0, 0, 0, -10, -10, -10, 0)
+		Face(51, 49, 6.26308e-06, 22.3681, true, 0, 8.47376e-32, 0, -0, -0, -1, 0)
+		Face(52, 49, 6.26308e-06, 22.3681, true, -5.40969e-16, 6.48331e-32, 100, 0, 0, 1, 0)
+		Face(56, 49, 0.000942478, 18.8496, false, 0, 0, 0, -10, -10, -10, 0)
+		Face(83, 82, 2.58867e-05, 25.8867, false, 0, 0, 0, -10, -10, -10, 0)
+		Face(84, 82, 1.33317e-05, 12.9434, true, 2.54142e-16, 3.98088e-32, -2, 0, 0, -1, 0)
+		Face(85, 82, 1.33317e-05, 12.9434, true, -2.54142e-16, 1.99044e-32, 0, -0, -0, 1, 0)
+		Face(90, 89, 0.06, 1000, true, 0, 0, 200, 0, 0, 1, 4, 0.15, -0.1, 0.2, 0.15, 0.1, 0.2, -0.15, 0.1, 0.2, -0.15, -0.1, 0.2)
+		Face(91, 89, 0.06, 1000, true, 0, 0, 0, -0, -0, -1, 4, 0.15, -0.1, 0, -0.15, -0.1, 0, -0.15, 0.1, 0, 0.15, 0.1, 0)
+		Face(92, 89, 0.06, 1000, true, 0, -100, 100, -0, -1, -0, 4, 0.15, -0.1, 0.2, -0.15, -0.1, 0.2, -0.15, -0.1, 0, 0.15, -0.1, 0)
+		Face(93, 89, 0.04, 800, true, -150, 0, 100, -1, -0, -0, 4, -0.15, -0.1, 0.2, -0.15, 0.1, 0.2, -0.15, 0.1, 0, -0.15, -0.1, 0)
+		Face(94, 89, 0.06, 1000, true, 0, 100, 100, 0, 1, 0, 4, -0.15, 0.1, 0.2, 0.15, 0.1, 0.2, 0.15, 0.1, 0, -0.15, 0.1, 0)
+		Face(95, 89, 0.04, 800, true, 150, 0, 100, 1, 0, 0, 4, 0.15, 0.1, 0, 0.15, 0.1, 0.2, 0.15, -0.1, 0.2, 0.15, -0.1, 0)
+	$end 'FacesInfo'
+	$begin 'PartAddtionalPiecesInfo'
+		$begin 'Bodies'
+		$end 'Bodies'
+		$begin 'Faces'
+		$end 'Faces'
+	$end 'PartAddtionalPiecesInfo'
+	$begin 'DesignGeometryInfo'
+		ModelUnit='mm'
+		ModelerType=2
+		MinDimensionInModelUnits=1e-06
+		MaxDimensionInModelUnits=10000
+		GlobalCSID=1
+		RegionID=-1
+		PreprocessForwardIdStart=162
+		PreprocessForwardIdEnd=162
+		PreprocessBackwardIdStart=2147483647
+		PreprocessBackwardIdEnd=2147483647
+	$end 'DesignGeometryInfo'
+	$begin 'Point3DDefinitionInfo'
+	$end 'Point3DDefinitionInfo'
+	$begin 'Plane3DDefinitionInfo'
+		Plane(-4, 'Global:XY', 1, -1, true, 3080308, 0, 0, 0, 0, 0, 1)
+		Plane(-3, 'Global:YZ', 1, -1, true, 6881387, 0, 0, 0, 1, 0, 0)
+		Plane(-2, 'Global:XZ', 1, -1, true, 6881387, 0, 0, 0, 0, 1, 0)
+	$end 'Plane3DDefinitionInfo'
+	$begin 'CoordinateSystemInfo'
+		CoordinateSystem(1, 'Global', -1, false, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+	$end 'CoordinateSystemInfo'
+	$begin 'ComponentDefinitionInfo'
+	$end 'ComponentDefinitionInfo'
+	$begin 'ComponentInstanceInfo'
+	$end 'ComponentInstanceInfo'
+	$begin 'GeometryEntityListOperationInfo'
+		$begin 'EntityList'
+			ID=2
+			Name='AllObjects'
+			$begin 'GeometryEntityListParameters'
+				EntityType='Object'
+				EntityList(6, 15, 49, 82, 89)
+			$end 'GeometryEntityListParameters'
+		$end 'EntityList'
+	$end 'GeometryEntityListOperationInfo'
+	$begin 'MaterialManager'
+		$begin 'ProjectMaterials'
+			$begin 'pec'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic')
+				$end 'PhysicsTypes'
+				conductivity='1e+30'
+			$end 'pec'
+			$begin 'vacuum'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=230
+						Green=230
+						Blue=230
+						Transparency=0.95
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				permittivity='1'
+			$end 'vacuum'
+		$end 'ProjectMaterials'
+		$begin 'InternalPrivateMaterials'
+		$end 'InternalPrivateMaterials'
+	$end 'MaterialManager'
+$end 'DesignData'

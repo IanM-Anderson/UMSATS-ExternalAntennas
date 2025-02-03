@@ -1,0 +1,68 @@
+$begin date_time_stamp
+	timesinceepock:1737408944
+$end date_time_stamp
+$begin sysinfo
+	os:win
+	cpuid:'AMD Ryzen 7 2700X Eight-Core Processor         '
+	cpumodel:NA
+	cpubrand:amd
+	cpuPhyCores:8
+	cpuLogCores:16
+	cpufreqkhz:0
+	cpucachelinesize:64
+	cpuestllcmb:64
+	cpuestgflops:524.8
+	cpuestbwkbps:51.2
+	numnumanodes:1
+	virtualmemkb:1.37439e+11
+	pagesizekb:4096
+$end sysinfo
+$begin matsolver
+	$begin matsolverinfo
+		solvertype:shared_memory
+		solverprecision:double
+		solversymmetry:complex_symm
+		matrixdim:122725
+		matrixbw:19.8669
+		matrixnnz:2438171
+		rootdim:1413
+		mathlib:amd
+		nummpitasks:1
+		numthreadpermpitasks:0
+	$end matsolverinfo
+	$begin matsolveranalysis
+		analysysstatus:valid
+		numsupernodes:10761
+		factornnz:32369123
+		factorestflops:54749881171
+		fbsestflops:112387120
+		rootfactestflops:940392050
+		rootfbsestflops:998284
+		analysistimesec:0.848492
+		analysismemkb:71028
+	$end matsolveranalysis
+	$begin matsolverfact
+		fatorizationstatus:valid
+		factorizationnumcores:4
+		factorizationtimesec:2.1139
+		factorizationmentotalkb:828827
+	$end matsolverfact
+	$begin matsolverfbs
+		fbstatus:valid
+		fbstype:fullsolve
+		fbsmt:false
+		fbsmrhs:false
+		fbsnumcores:4
+		fbsnumsolves:1
+		fbsavgsolvetime1solvesec:0.0634794
+		fbscputimesec:0.0634794
+		fbsmemorytotalkb:659024
+	$end matsolverfbs
+	$begin matsolverprofile
+		maxmemkb:828827
+		diskkb:0
+		totalrealtimesec:-1
+		totalcputimesec:-1
+		totaltimesec:-1
+	$end matsolverprofile
+$end matsolver

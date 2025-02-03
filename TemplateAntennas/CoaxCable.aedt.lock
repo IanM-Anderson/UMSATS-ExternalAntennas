@@ -1,0 +1,42 @@
+$begin 'ConnectionParameters'
+	DesktopProcessID=39332
+	DesktopProcessPath='C:\\Program Files\\AnsysEM\\Ansys Student\\v242\\Win64\\ansysedtsv.exe'
+	LaunchedByWB=false
+	GRPCPort=50051
+	$begin 'DesktopStubBlock'
+		$begin 'CommDetails'
+			TransportType=1
+			IPAddress='192.168.100.54'
+			ListenPort='60020'
+			IPAddressVector[1: '192.168.2.28']
+		$end 'CommDetails'
+		$begin 'Marshall'
+			InstanceID=503
+			ProcID=39332
+			InterfaceID=1
+			FactoryIntID='DesktopInterfaceForWBProxyStubFactory'
+		$end 'Marshall'
+	$end 'DesktopStubBlock'
+	$begin 'DesktopBackgroundObjStubBlock'
+		$begin 'CommDetails'
+			TransportType=1
+			IPAddress='192.168.100.54'
+			ListenPort='60020'
+			IPAddressVector[1: '192.168.2.28']
+		$end 'CommDetails'
+		$begin 'Marshall'
+			InstanceID=505
+			ProcID=39332
+			InterfaceID=2
+			FactoryIntID='DesktopInterfaceForWBProxyStubFactory'
+		$end 'Marshall'
+	$end 'DesktopBackgroundObjStubBlock'
+	$begin 'WebClientBlock'
+		Url='http://Xenon:29418/?server=ws://Xenon:28906&token=da1f1398-4305-0bfa-a47f-3e9048bf5c62&startTab=monitor/graph'
+		SecureUrl='https://Xenon:29674/?server=wss://Xenon:29162&token=da1f1398-4305-0bfa-a47f-3e9048bf5c62&startTab=monitor/graph'
+		WsHost='Xenon'
+		WsPort=28906
+		WssPort=29162
+		Token='da1f1398-4305-0bfa-a47f-3e9048bf5c62'
+	$end 'WebClientBlock'
+$end 'ConnectionParameters'
