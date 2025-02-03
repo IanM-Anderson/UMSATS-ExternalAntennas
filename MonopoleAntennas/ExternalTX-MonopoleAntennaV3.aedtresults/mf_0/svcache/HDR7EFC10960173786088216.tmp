@@ -1,0 +1,42 @@
+SimValueCacheVersionID=1
+$begin 'SimValueInfos'
+	NextUniqueID=1
+	MoveBackwards=false
+	$begin 'SimValue'
+		ID=0
+		$begin 'SimValueParams'
+			QuantityName='GainTotal'
+			ValueState(90, 15, 0, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+$end 'SimValueInfos'
+$begin 'SimValueCache'
+	$begin 'DesignMap'
+		DesignID=0
+		$begin 'SolutionMap'
+			$begin 'ContextMap'
+				SolutionID=103
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=104
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=3
+						SimValueContext(0, 0, 2, 0, false, false, 1, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=309
+						$begin 'MinorVVMap'
+							MajorVariation='AntennaCoverOffset=\'0.041379308969996198meter\' AntennaRadius=\'80.199999999999989mm\' AntennaTubingSpace=\'2mm\' AntennaWireRadius=\'0.59999999999999998mm\' CoaxGap=\'30mm\' DielectricCoaxDiameter=\'3mm\' Freq=\'0.91500000000000004GHz\' InnerCoaxDiameter=\'1.1200000000000001mm\' MonopoleLength=\'0.08249999999999999meter\' OuterCoaxDiameter=\'4.1200000000000001mm\' Period=\'1.0999999999999999e-09s\' RadiatingSurface_X=\'300mm\' RadiatingSurface_Y=\'200mm\' RadiatingSurface_Z=\'200mm\' SpeedOfLight=\'300000000m_per_sec\' TubingHeight=\'200mm\' TubingRadius=\'2.9999999999999996in\' TubingThickness=\'2mm\''
+							MinorCacheFile='min154A188521738013146212.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=105
+			$end 'ContextMap'
+		$end 'SolutionMap'
+	$end 'DesignMap'
+$end 'SimValueCache'
